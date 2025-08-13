@@ -8,13 +8,6 @@ body {
     height: 100vh;
 }
 
-/*remove the up/down arrows from input*/
-input[type=number]::-webkit-inner-spin-button,
-input[type=number]::-webkit-outer-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-}
-
 * {
     border-radius: 7px;
 }
@@ -27,6 +20,7 @@ input[type=number]::-webkit-outer-spin-button {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    background: black;
 }
 
 .display {
@@ -82,5 +76,9 @@ input {
     flex: 1;
     font-size: xx-large;
     background: coral;
+}
+
+button:hover {
+    cursor: pointer;
 }
 
